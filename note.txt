@@ -1,0 +1,15 @@
+docker ps -a
+
+#exec
+docker exec -it  <container name>  bash
+
+
+docker exec -it  v12_app_1  bash
+
+
+
+jupyter notebook list
+
+
+
+
