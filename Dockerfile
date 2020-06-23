@@ -29,6 +29,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         python3-dev \
         python3-venv \
         git \
+        nano\
         && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
