@@ -3,6 +3,7 @@
 
 
 projects/data/*
+!projects/data/a.txt
 
 
 
