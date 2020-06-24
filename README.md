@@ -19,11 +19,11 @@ sudo docker-compose up --build --force-recreate --no-deps
 
 # Docker related #
 
-# 4. How to check the  <container name>
+# 4. How to check the  "Process Status"
 docker ps -a
 
 # 5. docker exec:   bash inside the container (VVI)
-docker exec -it  <container name>  bash
+docker exec -it  "container name"  bash
 
 eg:	
 docker exec -it  v12_app_1  bash
