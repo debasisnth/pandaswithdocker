@@ -1,5 +1,8 @@
 # Pandas with Docker, Jupyter 
 
+git clone https://github.com/debasisnth/pandaswithdocker.git  .
+
+
 # 1. Where to put project CVS files 
 place your csv in 'data' folder first,  where 'a.txt' is located
 

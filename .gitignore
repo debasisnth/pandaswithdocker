@@ -6,4 +6,5 @@ projects/data/*
 !projects/data/a.txt
 
 
-
+projects/*
+!projects/Pandas Demo.ipynb
