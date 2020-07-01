@@ -8,3 +8,7 @@ projects/data/*
 
 projects/*
 !projects/Pandas Demo.ipynb
+!projects/Demo2.ipynb
+!projects/Demo3.ipynb
+!projects/Demo4.ipynb
+
