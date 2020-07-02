@@ -38,5 +38,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # install environment dependencies
 RUN pip3 install --upgrade pip 
 RUN pip3 install pandas jupyterlab matplotlib
+RUN pip3 install SQLAlchemy pymysql
+
 
 
