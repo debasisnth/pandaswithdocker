@@ -1,22 +1,29 @@
 version: "3"
 
 services:
-  app:
-    build:
-      context: . 
-    volumes:
-      - ./projects:/usr/src/
-    ports:
-     - "8888:8888"
-    environment:
-        - TESTVAL
-    command: >
-      sh -c "jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root"
+    app:
+        build:
+          context: . 
+        volumes:
+         - ./projects:/usr/src/
+        ports:
+         - "8888:8888"
+        environment:
+         - TESTVAL
+         - database_host
+         - database_name
+         - database_user
+         - database_password
+        command: >
+         sh -c "jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root"
+        network_mode: "host"
 
 
 
 
 
+######comments ######
+#  For macOS and Windows   network_mode: "host"   will not work
+#  use host.docker.internal   insted of 127.0.0.1
+#  
 
-
-#comments
