@@ -18,6 +18,9 @@ https://insights.stackoverflow.com/survey
 sudo docker-compose  up -d --build
 
 or
+sudo docker-compose  up -d --build --remove-orphans 
+
+or
 sudo docker-compose up --build --force-recreate --no-deps
 
 # Docker related #
