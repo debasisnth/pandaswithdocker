@@ -31,6 +31,11 @@ docker ps -a
 # 5. docker exec:   bash inside the container (VVI)
 docker exec -it  "container name"  bash
 
+or 
+# using docker-compose
+docker-compose exec app /bin/bash
+
+
 eg:	
 docker exec -it  v12_app_1  bash
 

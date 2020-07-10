@@ -5,7 +5,11 @@
 projects/data/*
 !projects/data/a.txt
 !projects/data/survey_results_schema.csv
+<<<<<<< HEAD
 !projects/data/survey_results_public.csv
+=======
+!projects/data/survey_results_public___small.csv
+>>>>>>> 062d5abd4bda81f8f7f7315df5118a5ec5623b6c
 !projects/data/pheno.csv
 
 
@@ -17,4 +21,8 @@ projects/*
 !projects/Demo5.ipynb
 !projects/Demo6.ipynb
 !projects/pheno.ipynb
+<<<<<<< HEAD
+=======
+
+>>>>>>> 062d5abd4bda81f8f7f7315df5118a5ec5623b6c
 
