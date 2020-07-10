@@ -4,6 +4,9 @@
 
 projects/data/*
 !projects/data/a.txt
+!projects/data/survey_results_schema.csv
+!projects/data/survey_results_public___small.csv
+!projects/data/pheno.csv
 
 
 projects/*
