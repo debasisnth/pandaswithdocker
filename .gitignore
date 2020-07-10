@@ -4,6 +4,9 @@
 
 projects/data/*
 !projects/data/a.txt
+!projects/data/survey_results_schema.csv
+!projects/data/survey_results_public.csv
+!projects/data/pheno.csv
 
 
 projects/*
@@ -13,4 +16,5 @@ projects/*
 !projects/Demo4.ipynb
 !projects/Demo5.ipynb
 !projects/Demo6.ipynb
+!projects/pheno.ipynb
 
