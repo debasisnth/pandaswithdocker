@@ -12,4 +12,12 @@ jupyter notebook list
 
 
 
+Pandas Demo.ipynb  == basic stuff,  loc iloc, filter    etc...
+Demo2.ipynb        == stat, median, mean    etc...
+Demo3.ipynb        == NAN, sanitations    etc..
+Demo4.ipynb        == datetime data related    etc.. 
+Demo5.ipynb        == mysql+pymysql, SQLAlcemy,mysql   etc...
+Demo6.ipynb        == matplotlib (+assignment)
+
+
 

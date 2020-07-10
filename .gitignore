@@ -13,4 +13,6 @@ projects/*
 !projects/Demo4.ipynb
 !projects/Demo5.ipynb
 !projects/Demo6.ipynb
+!projects/pheno.ipynb
+
 
